@@ -43,7 +43,7 @@ class Account:
         amount = 0
         for txn in self._transactions:
             if txn.txn_date <= txn_date:
-                # Check if this account is the sender. If yes,
+                # Check if this account is the receiver. If yes,
                 # the amount is credited, otherwise debited.
                 if txn.receiver_name == self._name:
                     amount += txn.amount
