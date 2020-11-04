@@ -48,7 +48,7 @@ class Ledger:
     def _process_file(self, csv_file: io.IOBase) -> None:  # pragma: no cover
         """Process the transactions of a CSV file
 
-        This is a wrapper arround `_process_transactions`, so as to decouple the
+        This is a wrapper around `_process_transactions`, so as to decouple the
         CSV file from the input of the actual processing. Also provides an
         easier-to-test interface, to `_process_transactions`.
         """
