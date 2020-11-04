@@ -1,5 +1,7 @@
 # Ledger
-Process transactions in a ledger
+A transactions processor.
+
+![ledger](https://user-images.githubusercontent.com/908935/98103132-70b38500-1e8c-11eb-9d37-0656152234d6.png)
 
 ## Setup
 
